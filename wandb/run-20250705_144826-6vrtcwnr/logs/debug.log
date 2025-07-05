@@ -1,0 +1,6 @@
+2025-07-05 14:48:26,012 INFO    MainThread:39732 [wandb_init.py:setup_run_log_directory():703] Logging user logs to C:\Users\Alex\PycharmProjects\dish_detect\wandb\run-20250705_144826-6vrtcwnr\logs\debug.log
+2025-07-05 14:48:26,012 INFO    MainThread:39732 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to C:\Users\Alex\PycharmProjects\dish_detect\wandb\run-20250705_144826-6vrtcwnr\logs\debug-internal.log
+2025-07-05 14:48:26,012 INFO    MainThread:39732 [wandb_init.py:init():830] calling init triggers
+2025-07-05 14:48:26,012 INFO    MainThread:39732 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'epochs': 2, 'batch_size': 16, 'img_size': 640, 'learning_rate': 0.01, 'lr_final': 0.01, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box_loss_gain': 7.5, 'cls_loss_gain': 0.5, 'dfl_loss_gain': 1.5, 'optimizer': 'SGD', 'multi_scale': True, 'dropout': 0.0, 'cos_lr': False, 'close_mosaic': 10, 'copy_paste': 0.0, 'auto_augment': 'randaugment', 'erasing': 0.4, 'crop_fraction': 1.0, '_wandb': {}}
+2025-07-05 14:48:29,235 INFO    MsgRouterThr:39732 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

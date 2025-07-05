@@ -1,0 +1,48 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            wpu9vtm39bm9cvakpdvxqiu3crre1w8g:
+                codePath: test.py
+                codePathLocal: test.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.7"
+                disk:
+                    /:
+                        total: "1023399686144"
+                        used: "452828463104"
+                email: sashalarionov2222@mail.ru
+                executable: C:\Users\Alex\anaconda3\envs\fd_env\python.exe
+                gpu: NVIDIA GeForce RTX 4050 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 2560
+                      memoryTotal: "6439305216"
+                      name: NVIDIA GeForce RTX 4050 Laptop GPU
+                      uuid: GPU-f150311e-44e1-b7b6-f160-b78713807df4
+                host: DESKTOP-C5SVDOM
+                memory:
+                    total: "16369422336"
+                os: Windows-10-10.0.26100-SP0
+                program: C:\Users\Alex\PycharmProjects\dish_detect\test.py
+                python: CPython 3.9.23
+                root: C:\Users\Alex\PycharmProjects\dish_detect
+                startedAt: "2025-07-05T12:22:41.737431Z"
+                writerId: wpu9vtm39bm9cvakpdvxqiu3crre1w8g
+        m: []
+        python_version: 3.9.23
+        t:
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.9.23
+            "5": 0.21.0
+            "8":
+                - 3
+            "12": 0.21.0
+            "13": windows-amd64
+test:
+    value: true

@@ -1,0 +1,1 @@
+{"mAP50":0.941086595062858,"_step":0,"train/box_loss":0,"_timestamp":1.7517194360933757e+09,"_runtime":289,"precision":0.9527684330896588,"val/box_loss":0,"_wandb":{"runtime":289},"f1":0.9507481188060118,"recall":0.9487363544132511}

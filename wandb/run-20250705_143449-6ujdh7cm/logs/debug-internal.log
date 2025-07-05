@@ -1,0 +1,17 @@
+{"time":"2025-07-05T14:35:01.0925951+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-05T14:35:02.320074+03:00","level":"INFO","msg":"stream: created new stream","id":"6ujdh7cm"}
+{"time":"2025-07-05T14:35:02.3207927+03:00","level":"INFO","msg":"stream: started","id":"6ujdh7cm"}
+{"time":"2025-07-05T14:35:02.3207927+03:00","level":"INFO","msg":"sender: started","stream_id":"6ujdh7cm"}
+{"time":"2025-07-05T14:35:02.3207927+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"6ujdh7cm"}
+{"time":"2025-07-05T14:35:02.3207927+03:00","level":"INFO","msg":"handler: started","stream_id":"6ujdh7cm"}
+{"time":"2025-07-05T14:35:02.4815599+03:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-07-05T14:35:02.4820678+03:00","level":"ERROR","msg":"runupserter: failed to init run","error":"returned error 404: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"entity food_det not found during upsertBucket\",\"path\":[\"upsertBucket\"]}]}"}
+{"time":"2025-07-05T14:35:03.4863882+03:00","level":"INFO","msg":"stream: closing","id":"6ujdh7cm"}
+{"time":"2025-07-05T14:35:03.4874358+03:00","level":"ERROR","msg":"sender: uploadConfigFile: stream: no run"}
+{"time":"2025-07-05T14:35:03.7581893+03:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-07-05T14:35:03.7581893+03:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"entity food_det not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-07-05T14:35:03.7587548+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-05T14:35:03.7592752+03:00","level":"INFO","msg":"handler: closed","stream_id":"6ujdh7cm"}
+{"time":"2025-07-05T14:35:03.7592752+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6ujdh7cm"}
+{"time":"2025-07-05T14:35:03.7592752+03:00","level":"INFO","msg":"sender: closed","stream_id":"6ujdh7cm"}
+{"time":"2025-07-05T14:35:03.7598039+03:00","level":"INFO","msg":"stream: closed","id":"6ujdh7cm"}

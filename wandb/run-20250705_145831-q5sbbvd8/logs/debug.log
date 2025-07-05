@@ -1,0 +1,47 @@
+2025-07-05 14:58:31,538 INFO    MainThread:4948 [wandb_setup.py:_flush():80] Current SDK version is 0.21.0
+2025-07-05 14:58:31,538 INFO    MainThread:4948 [wandb_setup.py:_flush():80] Configure stats pid to 4948
+2025-07-05 14:58:31,538 INFO    MainThread:4948 [wandb_setup.py:_flush():80] Loading settings from C:\Users\Alex\.config\wandb\settings
+2025-07-05 14:58:31,538 INFO    MainThread:4948 [wandb_setup.py:_flush():80] Loading settings from C:\Users\Alex\PycharmProjects\dish_detect\wandb\settings
+2025-07-05 14:58:31,538 INFO    MainThread:4948 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-07-05 14:58:31,538 INFO    MainThread:4948 [wandb_init.py:setup_run_log_directory():703] Logging user logs to C:\Users\Alex\PycharmProjects\dish_detect\wandb\run-20250705_145831-q5sbbvd8\logs\debug.log
+2025-07-05 14:58:31,569 INFO    MainThread:4948 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to C:\Users\Alex\PycharmProjects\dish_detect\wandb\run-20250705_145831-q5sbbvd8\logs\debug-internal.log
+2025-07-05 14:58:31,570 INFO    MainThread:4948 [wandb_init.py:init():830] calling init triggers
+2025-07-05 14:58:31,570 INFO    MainThread:4948 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'epochs': 2, 'batch_size': 16, 'img_size': 640, 'learning_rate': 0.01, 'lr_final': 0.01, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box_loss_gain': 7.5, 'cls_loss_gain': 0.5, 'dfl_loss_gain': 1.5, 'optimizer': 'SGD', 'multi_scale': True, 'dropout': 0.0, 'cos_lr': False, 'close_mosaic': 10, 'copy_paste': 0.0, 'auto_augment': 'randaugment', 'erasing': 0.4, '_wandb': {}}
+2025-07-05 14:58:31,570 INFO    MainThread:4948 [wandb_init.py:init():871] starting backend
+2025-07-05 14:58:32,685 INFO    MainThread:4948 [wandb_init.py:init():874] sending inform_init request
+2025-07-05 14:58:32,781 INFO    MainThread:4948 [wandb_init.py:init():882] backend started and connected
+2025-07-05 14:58:32,784 INFO    MainThread:4948 [wandb_init.py:init():953] updated telemetry
+2025-07-05 14:58:32,787 INFO    MainThread:4948 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2025-07-05 14:58:36,319 INFO    MainThread:4948 [wandb_init.py:init():1029] starting run threads in backend
+2025-07-05 14:58:36,597 INFO    MainThread:4948 [wandb_run.py:_console_start():2458] atexit reg
+2025-07-05 14:58:36,597 INFO    MainThread:4948 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-07-05 14:58:36,597 INFO    MainThread:4948 [wandb_run.py:_redirect():2375] Wrapping output streams.
+2025-07-05 14:58:36,597 INFO    MainThread:4948 [wandb_run.py:_redirect():2398] Redirects installed.
+2025-07-05 14:58:36,608 INFO    MainThread:4948 [wandb_init.py:init():1075] run started, returning control to user process
+2025-07-05 15:01:15,028 WARNING MsgRouterThr:4948 [router.py:message_loop():63] [no run ID] message_loop has been closed
+Traceback (most recent call last):
+  File "C:\Users\Alex\anaconda3\envs\fd_env\lib\site-packages\wandb\sdk\lib\sock_client.py", line 204, in _read_packet_bytes
+    data = self._sock.recv(self._bufsize)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Alex\anaconda3\envs\fd_env\lib\site-packages\wandb\sdk\interface\router_sock.py", line 27, in _read_message
+    return self._sock_client.read_server_response(timeout=1)
+  File "C:\Users\Alex\anaconda3\envs\fd_env\lib\site-packages\wandb\sdk\lib\sock_client.py", line 231, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+  File "C:\Users\Alex\anaconda3\envs\fd_env\lib\site-packages\wandb\sdk\lib\sock_client.py", line 208, in _read_packet_bytes
+    raise SockClientClosedError from e
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Alex\anaconda3\envs\fd_env\lib\site-packages\wandb\sdk\interface\router.py", line 56, in message_loop
+    msg = self._read_message()
+  File "C:\Users\Alex\anaconda3\envs\fd_env\lib\site-packages\wandb\sdk\interface\router_sock.py", line 29, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-07-05 15:01:15,031 INFO    MsgRouterThr:4948 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

@@ -1,0 +1,36 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.9.23",
+  "startedAt": "2025-07-05T12:37:31.424052Z",
+  "program": "C:\\Users\\Alex\\PycharmProjects\\dish_detect\\train_yolo_wandb.py",
+  "codePath": "train_yolo_wandb.py",
+  "codePathLocal": "train_yolo_wandb.py",
+  "email": "sashalarionov2222@mail.ru",
+  "root": "C:\\Users\\Alex\\PycharmProjects\\dish_detect",
+  "host": "DESKTOP-C5SVDOM",
+  "executable": "C:\\Users\\Alex\\anaconda3\\envs\\fd_env\\python.exe",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1023399686144",
+      "used": "453042708480"
+    }
+  },
+  "memory": {
+    "total": "16369422336"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+      "memoryTotal": "6439305216",
+      "cudaCores": 2560,
+      "architecture": "Ada",
+      "uuid": "GPU-f150311e-44e1-b7b6-f160-b78713807df4"
+    }
+  ],
+  "cudaVersion": "12.7",
+  "writerId": "c3gchvvjbc4h5urmwi89adu0a37k0hnu"
+}
